@@ -16,15 +16,21 @@
             </div>
             
             <div id="div7">
-            <a target="_parent" href="site3.html"><center><h3> Juntas </h3></center>  </a>
+            <a target="_parent" href="site4.html"><center><h3> Juntas </h3></center>  </a>
             </div>
     </div>
          
 </head>
     
         <style>
+            
+            html{
+
+	height: 100%;
+
+}
             *{margin: 0px;
-            padding: 0px}
+            padding: 0px;}
                 
             
             #div4{position:relative;
@@ -49,11 +55,12 @@
             
             body{background-color: black;}
             
-            #div3{padding-left: 150px;
-                    padding-right: 200px;
-                    background-color: dimgray;
-                    margin-left:150px;
-                    margin-right: 200px;}
+            #div3{
+                    top: 50%;
+                    transform: translateY(+5%);
+                    margin-left:5%;
+                    margin-right: 5%;
+            }
             
              h3{font-family: "Arial";
                 color: orangered;
@@ -63,12 +70,31 @@
             
              li {font-family: "Arial";
                 color: white;
-                font-size: 13,5px;}
+                font-size: 13,5px;
+            margin-left: 10%    }
             
             #classe{position:relative;
                 top: 0px /*y*/;
                 left: 50%; 
-                transform: translateX(-50%);}
+                transform: translateX(-50%);
+            width: 30%;
+            height: 30% }
+            
+            #social{background-color: orangered;
+                    position: relative;
+                    top:50%}
+            #facelogo{width: 3%;
+                    position: relative;
+                    left: 80%}
+            #mllogo{width: 6%;
+                    position: relative;
+                    left:80% }
+            
+            #cabeça{width: 100%;
+                height:30%;
+                    top: 0%;
+                    left: 0%;
+            position: relative;}
             
         </style>
     
@@ -76,29 +102,43 @@
     <body>
         
     <div id="div3">
+        
         <h3>
-        Linha de amortecedores para veículos convencional e utilitários: 
+        <center>Linha de amortecedores para veículos convencional e utilitários: </center>
         </h3>
     
         
             <br /><br />
             <li>Corven Hi<strong>Tech</strong></li>
             <br />
-            <img src="https://i.imgur.com/cnC7GeQ.jpg" width="30%" height="30%" id="classe" />
+        <a href="https://produto.mercadolivre.com.br/MLB-862194867-amortecedor-hi-tech-diant-gm-cruze-hitech-direito-11-_JM"><img src="https://i.imgur.com/cnC7GeQ.jpg" width="30%" height="30%" id="classe" /></a>
             <br />
+        
+        
             <li>Corven Plus</li>
             <br />
-            <img src="https://i.imgur.com/wPqhCzr.jpg" width="30%" height="30%" id="classe" />
+            <a href="https://produto.mercadolivre.com.br/MLB-860486042-amortecedor-diant-alfa-romeo-145-182020-quadrifoglio-9-_JM">
+            <img src="https://i.imgur.com/wPqhCzr.jpg" width="30%" height="30%" id="classe" /></a>
             <br />
+        
             <li>Corcen Sport</li>
             <br />
-            <img src="https://i.imgur.com/TForGfM.jpg" width="30%" height="30%" id="classe" />
+            <a href="https://produto.mercadolivre.com.br/MLB-862194870-amortecedor-kit-suspenso-esportiva-diant-audi-a3-9606-_JM">
+            <img src="https://i.imgur.com/TForGfM.jpg" width="30%" height="30%" id="classe" /></a>
             <br />
+        
             <li>Corven Super PickUp</li>
             <br />
-            <img src="https://i.imgur.com/YNVPZ8t.jpg" width="30%" height="30%" id="classe" />
+            <a href="https://produto.mercadolivre.com.br/MLB-862197235-amortecedor-super-pick-up-diant-ford-f-250-4x2-xlxltsupe-_JM">
+            <img src="https://i.imgur.com/YNVPZ8t.jpg" width="30%" height="30%" id="classe" /></a>
             <br />
     </div>
+        
+        <div id="social">
+        <img  src="logofacebook.png" id="facelogo"/>
+         <a target="_parent" href="https://loja.mercadolivre.com.br/corven"/><img src="logomercadolivre.png" id="mllogo"/>
+            
+        </div>
         
         
     </body>
